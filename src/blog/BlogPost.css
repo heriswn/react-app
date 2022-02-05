@@ -1,0 +1,35 @@
+.section-title {
+    font-weight: 600;
+}
+
+.post {
+    border: 1px solid rgb(0, 0, 0.3);
+    width: 500px;
+    display: flex;
+    box-shadow: 0 0 15px rgb(0, 0, 0.5);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.img-thumb {
+    width: 200px;
+    height: 150px;
+    margin-left: 2px;
+}
+
+.img-thumb img {
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+}
+
+.content p.title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}

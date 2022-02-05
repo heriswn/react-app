@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+// import LifeCycleComp from "./lifecyclecomp/LifeCycleComp";
+// import Product from "./product/Product";
+import BlogPost from "./blog/BlogPost";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Home extends Component {
+  // state = {
+  //   showComponent: true
+  // }
+
+  // componentDidMount(){
+  //   setTimeout(()=>{
+  //     this.setState({
+  //       showComponent: false
+  //     })
+  //   }, 15000)
+  // }
+
+  render(){
+    return(
+      <div>
+        {/* <Product /> */}
+        {/* {
+          this.state.showComponent
+          ?
+          <LifeCycleComp />
+          : null
+        } */}
+        <p>BlogPost</p>
+        <hr/>
+        <BlogPost />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default Home

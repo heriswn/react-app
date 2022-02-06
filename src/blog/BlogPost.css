@@ -43,7 +43,16 @@
     margin-top: 10px;
 }
 
-.btn-remove:hover {
+.btn-update {
+    padding: 12px 18px;
+    background: greenyellow;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.btn-remove :hover {
     cursor: pointer;
 }
 
